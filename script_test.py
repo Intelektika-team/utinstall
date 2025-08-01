@@ -1,4 +1,4 @@
-def main():
+def main(arg):
     print("""
 That is test script for utitool scripts system.
 1
