@@ -1,6 +1,6 @@
 def print_hello():
     """Example reusable function that prints a greeting."""
-    print("Hello world!")
+    return "Hello, world!"
 
 def main(*args):
     """
@@ -8,6 +8,6 @@ def main(*args):
     Processes command line arguments and executes appropriate functions.
     """
     if args[0] == "test":
-        print_hello()
+        return print_hello()
     else:
         print("No valid command provided.")
